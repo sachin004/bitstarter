@@ -1,7 +1,5 @@
-fs.readFile('/etc/passwd', function (err, data) {
-  if (err) throw err;
-  console.log(data);
-});var express = require('express');
+var fs =  require('fs');
+var express = require('express');
 
 var app = express.createServer(express.logger());
 
